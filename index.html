@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume | sh_zokiro`vich</title>
+
+  <!--  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+   <link rel="stylesheet" href="css/style.css">
+ 
+</head>
+<body class="bg-gradient-to-b from-slate-900 via-slate-800 to-slate-900 text-slate-100 min-h-screen font-sans">
+
+  <!-- NAV / HEADER -->
+  <header class="max-w-5xl mx-auto px-6 py-6 flex items-center justify-between">
+    <a href="#" class="text-2xl font-semibold">Samandarov Shokirjon</a>
+    <nav class="space-x-6 hidden md:flex">
+      <a href="#home" class="hover:underline">Home</a>
+      <a href="#about" class="hover:underline">About</a>
+      <a href="#skills" class="hover:underline">Skills</a>
+      <a href="#contact" class="hover:underline">Contact</a>
+    </nav>
+    <button id="mobileBtn" class="md:hidden px-3 py-2 bg-white/5 rounded">Menu</button>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6">
+
+    <!-- HERO / HOME -->
+    <section id="home" class="grid md:grid-cols-2 gap-8 items-center py-12">
+      <div>
+        <p class="text-sm uppercase text-slate-400 mb-2">Hello, my name is</p>
+        <!-- O'ZGARTIRISH: Ismingiz va roli -->
+        <h1 class="text-4xl md:text-5xl font-bold mb-3">Samandarov Shokir</h1>
+        <p class="text-xl text-slate-300 mb-4">Front-End Developer</p>
+        <p class="text-slate-300 leading-relaxed mb-6">
+          Men HTML, CSS, JavaScript va React.js bilan ishlayman. Amaliy loyihalarda ishtirok etib, o’z ko’nikmalarimni rivojlantirishni xohlayman. Jamoada ishlash va yangi texnologiyalarni o’rganishni yaxshi ko’raman.
+        </p>
+
+        <div class="flex gap-3">
+          <a href="resume.pdf" class="inline-block bg-indigo-600 hover:bg-indigo-500 px-4 py-2 rounded shadow">Resume (PDF)</a>
+          <a href="#contact" class="inline-block border border-white/10 px-4 py-2 rounded">Contact me</a>
+        </div>
+      </div>
+
+      <!-- PROFIL KARTASI -->
+      <div class="glass p-6 rounded-2xl shadow-lg">
+        <div class="flex items-center gap-4 mb-4">
+          <div class="w-20 h-20 bg-gradient-to-tr from-indigo-500 to-pink-500 rounded-full flex items-center justify-center text-2xl font-bold" style="border-radius: 1000px;"><img class="photo-img" src="photo_o`zim.jpg" alt="Sh"></div>
+          <div>
+            <h3 class="text-lg font-semibold">Samandarov Shokirjon</h3>
+            <p class="text-slate-300 text-sm">Front-End Developer</p>
+          </div>
+        </div>
+
+        <ul class="text-sm text-slate-300 space-y-2">
+          <li><strong>Email:</strong> samandarovshakirjon@gmail.com</li>
+          <li><strong>Telefon:</strong> +998 99 348 20 18</li>
+          <li><strong>Manzil:</strong> Xorazm viloyati,Xonqa tumani</li>
+        </ul>
+
+        <div class="mt-4">
+          <h4 class="text-sm text-slate-400 uppercase mb-2">Qisqacha ma'lumot</h4>
+          <p class="text-slate-300 text-sm">
+            Men web-dasturlashda chuqur qiziqaman. HTML/CSS, JavaScript va React bo'yicha loyihalar quraman. Tez o'rganaman va jamoada samarali ishlayman.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="py-8">
+      <h2 class="text-2xl font-bold mb-4">About me</h2>
+      <p class="text-slate-300 leading-relaxed">
+        <!-- O'ZGARTIRISH: O'zim haqimda  -->
+        Men — Front-end yo'nalishida ishlaydigan dasturchiman. Hozirgacha o'zimni mustaqil loyihalarda sinab ko'rdim va portfolio to'plash ustidaman. Fikr-mulohaza olish va hamkorlik qilishga ochiqman.
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="py-8">
+      <h2 class="text-2xl font-bold mb-4">Skills</h2>
+
+      <!-- har bir ko'nikma uchun progress -->
+      <div class="space-y-4 max-w-xl">
+        <div>
+          <div class="flex justify-between mb-1"><span>HTML</span><span>95%</span>
+        </div>
+          <div class="progress-wrap"><div class="progress-bar bg-indigo-500 w-[95%]">
+
+          </div>
+        </div>
+        </div>
+
+        <div>
+          <div class="flex justify-between mb-1"><span>CSS</span><span>90%</span></div>
+          <div class="progress-wrap"><div class="progress-bar bg-sky-500 w-[90%]">
+
+             </div>
+           </div>
+         </div>
+
+        <div>
+          <div class="flex justify-between mb-1"><span>JavaScript</span><span>80%</span>
+        </div>
+          <div class="progress-wrap"><div class="progress-bar bg-amber-500 w-[80%]">
+
+          </div>
+         </div>
+        </div>
+
+        <div>
+          <div class="flex justify-between mb-1"><span>ReactJS</span><span>65%</span>
+        </div>
+          <div class="progress-wrap">
+            <div class="progress-bar bg-emerald-500 w-[65%]">
+          </div>
+        </div>
+        </div>
+
+        <div>
+          <div class="flex justify-between mb-1"><span>Tailwind CSS</span><span>60%</span></div>
+          <div class="progress-wrap"><div class="progress-bar bg-pink-500 w-[60%]">
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="py-8">
+      <h2 class="text-2xl font-bold mb-4">Contact me</h2>
+
+      <div class="grid md:grid-cols-2 gap-6">
+        <form id="contactForm" class="space-y-4 glass p-6 rounded shadow">
+          <div>
+            <label class="block text-sm text-slate-300 mb-1">Ism</label>
+            <input type="text" id="name" class="w-full p-2 rounded bg-slate-800 border border-slate-700" placeholder="Ismingizni yozing" required>
+          </div>
+          <div>
+            <label class="block text-sm text-slate-300 mb-1">Email</label>
+            <input type="email" id="email" class="w-full p-2 rounded bg-slate-800 border border-slate-700" placeholder="email@example.com" required>
+          </div>
+
+          <div>
+            <label class="block text-sm text-slate-300 mb-1">Xabar</label>
+            <textarea id="message" class="w-full p-2 rounded bg-slate-800 border border-slate-700" rows="4" placeholder="Xabaringiz..."></textarea>
+          </div>
+
+          <div>
+            <button type="submit" class="bg-indigo-600 hover:bg-indigo-500 px-4 py-2 rounded">Yuborish</button>
+          </div>
+
+        </form>
+
+        <div class="glass p-6 rounded shadow text-slate-300">
+          <h3 class="font-semibold mb-2">Boshqa kontaktlar</h3>
+          <p class="text-sm mb-2"><strong>Email:</strong> samandarovshakirjon@gmail.com</p>
+          <p class="text-sm mb-2"><strong>Telefon:</strong> +998 99 348 20 18</p>
+          <p class="text-sm"><strong>Github:</strong> <a href="https://github.com/zokirovich" target="_blank" class="underline">github.com/sh_zokirovich</a></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="py-8 text-center text-slate-400">
+      ©2025 Samandarov Shokirjon. All rights reserved.
+    </footer>
+  </main>
+
+  <script>
+    // Mobil menu (oddiy)
+    const mobileBtn = document.getElementById('mobileBtn');
+    mobileBtn.addEventListener('click', () => {
+      const nav = document.querySelector('nav');
+      nav.classList.toggle('hidden');
+    });
+
+    // Kontakt forma: demo — mailto bilan yuboradi brauzerda
+    document.getElementById('contactForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const message = document.getElementById('message').value.trim();
+      const subject = encodeURIComponent('Portfolio orqali bog\'lanish: ' + name);
+      const body = encodeURIComponent('Ism: ' + name + '\\nEmail: ' + email + '\\n\\n' + message);
+      window.location.href = `mailto:xursandbek@example.com?subject=${subject}&body=${body}`;
+    });
+  </script>
+</body>
+</html>
