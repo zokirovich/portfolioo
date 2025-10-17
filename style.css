@@ -1,0 +1,21 @@
+
+    /* Qo'shimcha styling */
+    .progress-wrap {
+         background: rgba(255,255,255,0.08); 
+         border-radius: 999px;
+          overflow: hidden; 
+        }
+    .progress-bar {
+         height: 10px;
+         border-radius: 999px;
+         transform-origin: left;
+         transition: width 1s ease; 
+        }
+    .glass { 
+        background: rgba(255,255,255,0.04); 
+        backdrop-filter: blur(6px); 
+        -webkit-backdrop-filter: blur(6px); 
+    }
+    .photo-img {
+        border-radius: 65px;
+    }
